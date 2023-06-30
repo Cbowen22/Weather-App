@@ -7,12 +7,65 @@
     <link rel="stylesheet" href="assets/CSS/style.css">
 </head>
 <body>
-    
-
-
-
-
-
+    <div class="container-fluid row">
+        <div class="col-3 left_div justify-content-center pt-3">
+            <div class="search_div mb-4">
+                <h2 class="justify-content-center pt-2 pl-3">Search a City:</h2>
+                    <form class="form-inline my-2 my-lg-0 mt-3 ml-3">
+                        <input class="form-control mr-sm-2 float-left" type="search" id="search-bar">
+                        <button id="btn" class="btn btn-outline-light my-2 my-sm-0" type="Search"></button>
+                    </form>
+            </div>
+                <h2 class="justify-content-center pt-2 pl-3">Search History</h2>
+                <div class="container my-3 col-12" id="Search-History"></div>
+            </div>
+    <div class="todays-weather col-9 pt-3">
+        <div class="bg-light p-3">
+            <h2 class="justify-content-center text-dark" id="city-name"></h2>
+            <div class="row">
+                <div class="col-6">
+                    <p id="tempurature"></p>
+                    <p id="humidity"></p>
+                    <p id="wind"></p>
+                </div>
+            </div>
+         </div>   
+    </div>
+    <div class="five-day bg-light p-3 m-3 w-100">
+        <div class="bg-light">
+            <h2 class="text-dark">Five Day Weather</h2>
+        </div>
+    <div class="row justify-content-center">
+        <div id="Day-1" class="card-body mx-2 my-2">
+            <h3 id="date"></h3>
+            <h3 id="Tempurature"></h3>
+            <h3 id="Humidity"></h3>
+    </div>
+    <div class="row justify-content-center">
+        <div id="Day-2" class="card-body mx-2 my-2">
+            <h3 id="date"></h3>
+            <h3 id="Tempurature"></h3>
+            <h3 id="Humidity"></h3>
+    </div>
+    <div class="row justify-content-center">
+        <div id="Day-3" class="card-body mx-2 my-2">
+            <h3 id="date"></h3>
+            <h3 id="Tempurature"></h3>
+            <h3 id="Humidity"></h3>
+    </div>
+    <div class="row justify-content-center">
+        <div id="Day-4" class="card-body mx-2 my-2">
+            <h3 id="date"></h3>
+            <h3 id="Tempurature"></h3>
+            <h3 id="Humidity"></h3>
+    </div>
+    <div class="row justify-content-center">
+        <div id="Day-5" class="card-body mx-2 my-2">
+            <h3 id="date"></h3>
+            <h3 id="Tempurature"></h3>
+            <h3 id="Humidity"></h3>
+    </div>
+</div>
 
     <script src="assets/JS/script.js"></script>
 </body>
